@@ -32,3 +32,34 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .grid {
+        /* width: 46.1875em; */
+        margin: 0 auto;
+    }
+    
+    .container__services__detail {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        flex-wrap: wrap;
+    }
+
+    .container__services__item1,
+    .container__services__item2,
+    .container__services__item3,
+    .container__services__item4 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* .container__services__detail {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+}
