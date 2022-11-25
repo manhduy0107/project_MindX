@@ -2,8 +2,9 @@
     --white-color: #FFF;
     --black-color: #000;
     --text-color: #333;
-
+    --heading-color: #175c62;
     --font-heading: "Overlock",Arial,Helvetica,sans-serif;
+    --font-services-info: #175c62;
 }
 
 * {
@@ -12,8 +13,8 @@
 
 html {
     line-height: 14px;
-    font-size: .75rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
     box-sizing: border-box;
 }
 
@@ -30,4 +31,35 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .grid {
+        /* width: 46.1875em; */
+        margin: 0 auto;
+    }
+    
+    .container__services__detail {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        flex-wrap: wrap;
+    }
+
+    .container__services__item1,
+    .container__services__item2,
+    .container__services__item3,
+    .container__services__item4 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* .container__services__detail {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
 }
