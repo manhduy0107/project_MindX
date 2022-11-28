@@ -405,3 +405,138 @@ a.box_menunews_item {
     flex: 0 0 50%;
     max-width: 50%;
 }
+
+/* footer */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 50px 100px;
+    background: #175C62;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/* about */
+.container__about{
+    width: 25%;
+    color: #FFF;
+    margin-left: -50px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.container__about1{
+    margin-top: 20px;
+    margin-left: -130px;
+}
+.container__about1 h2{
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+.container.container__about::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+
+}
+.container__about1__list{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.container__about__list--link{
+    text-decoration: none;
+    color: #FFF;
+}
+.container__about2{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.container__about2 h2{
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+/* content */
+.container__content{
+    margin-top: -3px;
+    margin-left: -90px;
+}
+.container__content__icon{
+    display: flex;
+    margin-left: 20px;
+}
+.container__content h2{
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 60px;
+}
+.container__content__icon li{
+    list-style: none;
+}
+.container__content__icon li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #175C62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+
+}
+.container__content__icon a{
+    color: #FFF;
+}
+
+.container__content__icon li a:hover{
+    background: #FFF;
+    color: black;
+}
+
+
+.container__content__icon--call{
+    color: #FFF;
+    line-height: 2;
+    margin-left: 60px;
+}
+.container__content__icon--mail{
+    color: #FFF;
+    line-height: 2;
+    margin-left: 60px;
+}
+.container__content__icon--map{
+    color: #FFF;
+    line-height: 2;
+    margin-left: 60px;
+}
+
